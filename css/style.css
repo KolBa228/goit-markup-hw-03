@@ -376,7 +376,6 @@ color: var(--acent-color);
 
 .footer-logo {
     display: block;
-    padding-top: 100px;
     padding-bottom: 16px;
 }
 
@@ -398,4 +397,58 @@ color: var(--acent-color);
 
 .team-post {
     padding-bottom: 32px;
+}
+
+.footer-link {
+    padding-top: 100px;
+    margin-bottom: 16px;
+}
+
+.ul-p-button {
+    display: flex;
+}
+
+.li-p-button:not(:last-child) {
+    margin-right: 24px;
+}
+
+.div-p-button {
+    margin-top: 168px;
+    margin-bottom: 72px;
+}
+
+.ul-p {
+    display: flex;
+}
+
+.div-ul-p:not(:first-child) {
+    margin-top: 48px;
+}
+
+.li-p-f:not(:first-child) {
+    margin-left: 24px;
+}
+
+.li-p-s:not(:first-child) {
+    margin-left: 24px;
+}
+
+.li-p-t:not(:first-child) {
+    margin-left: 24px;
+}
+
+.inside-li-p {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.portfolio-text {
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
