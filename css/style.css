@@ -412,6 +412,10 @@ color: var(--acent-color);
     margin-right: 24px;
 }
 
+.li-p-button {
+    align-self: center;
+}
+
 .div-p-button {
     margin-top: 168px;
     margin-bottom: 72px;
@@ -424,6 +428,11 @@ color: var(--acent-color);
 .div-ul-p:not(:first-child) {
     margin-top: 48px;
 }
+
+.div-ul-p:last-child {
+    margin-bottom: 120px;
+}
+    
 
 .li-p-f:not(:first-child) {
     margin-left: 24px;
