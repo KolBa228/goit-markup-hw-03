@@ -61,6 +61,10 @@ li {
     text-decoration: none;
 }
 
+.portfolio {
+    border: 1px solid #E7E9FC;
+}
+
 .portfolio-button {
     cursor: pointer;
     background-color: #E7E9FC;
