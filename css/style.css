@@ -363,7 +363,7 @@ color: var(--acent-color);
 }
 
 .choise-li:not(:last-child) {
-    padding-right: 24px;
+    margin-right: 24px;
 }
 
 .team-title {
@@ -415,22 +415,27 @@ color: var(--acent-color);
 
 .ul-p {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
 }
 
 .div-ul-p:not(:last-child) {
     margin-bottom: 48px;
 }
+
+.li-p-f {
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
     
-.li-p-f:not(:first-child) {
-    margin-left: 24px;
 }
 
-.li-p-s:not(:first-child) {
-    margin-left: 24px;
+.li-p-f:nth-child(3n) {
+    margin-right: 0;
 }
 
-.li-p-t:not(:first-child) {
-    margin-left: 24px;
+.li-p-f:nth-last-child(-n + 3) {
+    margin-bottom: 0;
 }
 
 .inside-li-p {
@@ -451,4 +456,8 @@ color: var(--acent-color);
 
 .ul-p-button {
     justify-content: center;
+}
+
+.portfolio {
+    padding-top: 96px;
 }
